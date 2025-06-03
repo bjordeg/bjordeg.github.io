@@ -1,0 +1,1666 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins';
+    background-image: url(tloglowne.png);
+
+}
+.przyciskprzysmokuznozami,
+.przyciskwblogu,
+.przyciskflitrowania,
+.czarnyorzyciskzdataniewiempoco{
+    transition: background 0.2s, color 0.2s;
+}
+
+.przyciskprzysmokuznozami:hover,
+.przyciskwblogu:hover,
+.przyciskflitrowania:hover,
+.czarnyorzyciskzdataniewiempoco:hover{
+    background: #ed1c24;
+    color: #fff;
+}
+
+.nozyktylnezdjecienagorze{
+    height: 100vh;
+    width: 100%;
+    background-image: url(tlonoz1.png);
+    background-size: cover;
+    filter: brightness(30%);
+    z-index: -23;
+    position: relative;
+}
+.naglow{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+.logo{
+    width: 276px;
+    margin-right: 384px;/*wiedząc że 2 jst m0 wielomianu w(x) wyznacz resztę z dzielenia wielomianu w(x):p(x) x2-x-2 ponad to reszta z dzielenia wielomianu w przez dwumian x+1 jest równa 5*/
+}
+.menu{
+    height: 78.86px;
+    width: 100%;
+    padding-left: 153.6px;
+    padding-right: 103.6px;
+    display: flex;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+.wyszukiwajblablabla{
+    background: none;
+    border: none;
+    color: white;
+    font-family: 'Poppins';
+    outline: none;
+}
+.ikonka{
+    background: none;
+    border: none;
+}
+.ikonka:hover path{
+    stroke:red;
+    fill:red;
+}
+.koszyk{
+    background: none;
+    border: none;
+}
+.koszyk:hover path{
+    stroke:red;
+}
+.ikoneki{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 384px;
+    margin-left: 484px;
+}
+.hamburbur-menu{
+  display: none;
+  background-color: #222;
+  position: absolute;
+  top: 78.86px;
+  right: 0;
+  width: 200px;
+  height: 300px;
+  border-radius: 0 0 0 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  z-index: 999;
+  background-color: #000000;
+
+}
+.hamburbur-menu>ul{
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+}
+.hamburbur-menu>li{
+  margin: 10px 0;
+}
+.hamburbur-menu a{
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 8px;
+  border-radius: 4px;
+}
+.hamburbur-menu a:hover{
+  background-color: #444;
+}
+.hamburbur-menu.active{
+  display: block;
+}
+.hamburbur-menu{
+  transition: all 0.3s ease;
+}
+.distinguisheddarkercoloredindividualwedzowydiv{
+    position: absolute;
+    transform: translate(50%,-50%);
+    top: 50%;
+    right: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+}
+.napischinskisrodeczek{
+height: 96px;
+}
+.napisikjakis{
+    color: white;
+    font-weight: 200;
+    font-size: 50px;
+    letter-spacing: 0.25em;
+    text-shadow: black 1px 1px;
+    margin-top: 64.8px;
+}
+.strzaleczki{
+    position: absolute;
+    transform: translate(50%,-50%);
+    bottom: 50%;
+    right: 50%;
+    width: 92vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.strzal{
+    background: none;
+    border: none;
+}
+.batonpodznakami{
+    font-family: Inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border: white 1px solid;
+    border-radius: 10px;
+    width: 15vw;
+    font-weight: 300;
+    height: 65px;
+    margin-top: 64.8px;
+}
+.dziwnyprzycisk{
+    position: absolute;
+    border: none;
+    background: none;
+    right: 50%;
+    bottom: 2%;
+}
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.nagloweklnasrodku{
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    letter-spacing: 20%;
+    font-weight: 300;
+}
+.zdjeciagridzik{
+    display: grid;
+    grid-template-rows: 10% 597px 597px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 8px;
+    height: 1554px;
+    width: 80vw;
+    margin-bottom: 54px;
+    z-index: 1;
+    position: relative;
+}
+
+
+
+.overlay{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 40px 32px 32px 32px;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+    background: rgba(0,0,0,0.72);
+    border-radius: 8px;
+    box-shadow: 0 4px 24px 0 rgba(0,0,0,0.18);
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+    z-index: 50;
+}
+
+.zdjeciagridzik > .a1:hover .overlay,
+.zdjeciagridzik > .a2:hover .overlay,
+.zdjeciagridzik > .a3:hover .overlay,
+.zdjeciagridzik > .a4:hover .overlay,
+.zdjeciagridzik > .a5:hover .overlay,
+.zdjeciagridzik > .a6:hover .overlay{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.overlay h3{
+    margin: 0 0 4px 0;
+    font-size: 1.3em;
+    font-weight: 300;
+    letter-spacing: 0.15em;
+    color: #fff;
+}
+
+.overlay p{
+    margin: 0 0 24px 0;
+    font-size: 1em;
+    font-weight: 200;
+    color: #fff;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+}
+
+.overlay a{
+    width: auto;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 18px;
+}
+
+.overlay .przyciskprzysmokuznozami{
+    margin: 0;
+    font-size: 1em;
+    padding: 12px 32px;
+    min-width: 0;
+    font-weight: 400;
+    border-radius: 8px;
+    background: #ed1c24;
+    color: #fff;
+    border: none;
+    transition: background 0.2s, color 0.2s;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.10);
+}
+
+.overlay .przyciskprzysmokuznozami:hover{
+    background: #b31217;
+    color: #fff;
+}
+
+
+
+.a1{
+    background-image: url(ptlo1.png);
+    background-size: cover;
+    grid-row: 2;
+}
+.a2{
+    background-image: url(ptlo2.png);
+    background-size: cover;
+    grid-row: 2;
+}
+.a3{
+    background-image: url(ptlo3.png);
+    background-size: cover;
+    grid-row: 2;
+}
+.a4{
+    background-image: url(ptlo4.png);
+    background-size: cover;
+    grid-row: 3;
+}
+.a5{
+    background-image: url(ptlo5.png);
+    background-size: cover;
+    grid-row: 3;
+}
+.a6{
+    background-image: url(ptlo6.png);
+    background-size: cover;
+    grid-row: 3;
+}
+.historia{
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.historia>div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80vw;
+    
+}
+.historia>div>img{
+    width: 903px;
+}
+.historia>div>div{
+    width: 70%;
+    margin-left: 38.4px;
+}
+.przyciskprzysmokuznozami{
+    background: none;
+    background-color: #EAEAEA;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+    width: 168px;
+    margin-top: 21.6px;
+    height: 64.8px;
+    font-weight: 300;
+    color: #000000;
+}
+.zdjeciagridzik>div{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+    z-index: -2;
+}
+.zdjeciagridzik>div::after{
+    background-image: linear-gradient(rgba(255, 255, 255, 0), black);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    z-index: 5;
+}
+.czarnyoverlej{
+    width: 100px;
+    height: 200px;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+    z-index: -2;
+}
+.blablablapositionabsolutewcaleniejesttakiezlewedzowycytat{
+    background-image: linear-gradient(rgba(255, 255, 255, 0), black); /* Wedż coś tam poyappił ale to nie działa więc trzeba poprawić /* naprawqiłem ez z wedż */
+    /* 
+    Zadanie z góry
+    W(2) = 0
+    W(-1) = 5
+
+    W(x) = Q(x) * (x^2 -x -2) + ax +b
+
+    W(2) = 2a + b = 0
+    W(-1) = -a + b = 5
+  {
+        2a + b = 0
+        -a + b = 5
+    }
+  {
+        2a + b = 0
+        a - b = -5
+    }
+    3a = -5
+    a = -5/3
+
+    5/3 + b = 5
+    b = 5 - 5/3
+    b = 10/3
+    b = 3 + 1/3
+
+    Ez z wedżem
+    */
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    position: absolute;
+}
+.zdjeciagridzik>div>h3{
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 15%;
+    z-index: 20;
+    padding-left: 38.4px;
+}
+.zdjeciagridzik>div>p{
+    z-index: 20;
+    padding-left: 38.4px;
+    padding-bottom: 43.2px;
+    font-weight: 300;
+    letter-spacing: 15%;
+}
+.stopka{
+    background-image: url(stopka.png);
+    background-color: #000000;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 545px;
+    display: flex;
+    z-index: -12;
+    position: absolute;
+    padding-top: 81px;
+    padding-left: 153.6px;
+    padding-right: 153.6px;
+    padding-bottom: 21.6px;
+    display: flex;
+    flex-direction: column;
+}
+.costamcostamczarnenafooterze{
+    background-color: #000000;
+    opacity: 70%;
+    width: 100vw;
+    height: 545px;
+    z-index: -2;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.logolink{
+    width: 276px;
+    height: 41.11px;
+}
+.logostopka{
+    height: 44.92px!important;
+    width: auto!important;
+}
+.nochlopietakimidzikwstopce{
+    border-bottom: #FFFFFF20 1px solid;
+    border-top: #ffffff20 1px solid;
+    color: #FFFFFF;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    font-weight: 200;
+    font-size: 15px;
+    margin-top: 21.6px;
+    margin-bottom: 21.6px;
+}
+.nienawidzerobieniasekiryu{
+    color: #FFFFFF;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 200;
+}
+.glownydivstopka{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    align-items: flex-start;
+}
+.glownydivstopka>div{
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    width: 233px;
+    height: 240px;
+    justify-content: flex-end;
+}
+.glownydivstopka>div>h3{
+    font-size: 20px;
+    margin-bottom: 32.4px;
+}
+.glownydivstopka>div>p{
+    font-size: 13px;
+    font-weight: 200;
+    margin-top: 21.6px;
+}
+.glownydivstopka img{
+    width: 96px;
+}
+.chlopaczynakfcdivostatniwstopcezezdjeciami>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.chlopaczynakfcdivostatniwstopcezezdjeciami{
+    height: 250px!important;
+    justify-content: space-around!important;
+    
+}
+.regulaminnapisglowny{
+    letter-spacing: 20%;
+    font-weight: 300;
+    font-size: 35px;
+}
+.smiesznywiedzeniegdziesiejest{
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center;
+    width: 90vw !important;
+    justify-content: flex-start;
+}
+.smiesznywiedzeniegdziesiejest>span{
+    margin-left: 8px;
+    margin-right: 8px;
+    color: #858585;
+}
+.pierwszyawblablabla{
+    color: #858585;
+}
+.normalnynaglow{
+    height: 143.2px;
+}
+.mainregulamin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mainregulamin>div{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+}
+.mainregulamin>div>ol>li{
+    font-weight: 300;
+    margin-bottom: 5.4px;
+}
+.mainregulamin>div>ol{
+    list-style: none;
+    margin-top: 43.2px;
+}
+.definicje{
+    margin-bottom: 54px;
+}
+.postanowienia{
+    margin-bottom: 54px;
+}
+.mainregulamin>div>p{
+    font-weight: 300;
+    margin-top: 43.2px;
+}
+.historia>h2{
+    font-weight: 300;
+    letter-spacing: 20%;
+    font-size: 35px;
+}
+.zdjeciagridzik2{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 8px;
+    height: 100vh;
+    width: 80vw;
+    margin-bottom: 54px;
+}
+.zdjeciagridzik2 > div{
+    position: relative;
+    overflow: hidden;
+}
+
+.zdjeciagridzik2 .smok-overlay{
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+    z-index: 10;
+}
+
+.zdjeciagridzik2 > div:hover .smok-overlay{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.zdjeciagridzik2 .smok-overlay img{
+    width: 60%;
+    height: auto;
+    max-width: 120px;
+    filter: drop-shadow(0 2px 8px #0008);
+    user-select: none;
+    pointer-events: none;
+}
+.b1{
+    background-image: url(ptlo1.png);
+    background-size: cover;
+    grid-row: 1;
+    grid-column: 1;
+}
+.b2{
+    background-image: url(ptlo2.png);
+    background-size: cover;
+    grid-row: 1;
+    grid-column: 2;
+}
+.b3{
+    background-image: url(ptlo3.png);
+    background-size: cover;
+    grid-row: 1;
+    grid-column: 3;
+}
+.b4{
+    background-image: url(ptlo4.png);
+    background-size: cover;
+    grid-row: 1;
+    grid-column: 4;
+}
+.b5{
+    background-image: url(ptlo5.png);
+    background-size: cover;
+    grid-row: 2;
+    grid-column: 1;
+}
+.b6{
+    background-image: url(ptlo6.png);
+    background-size: cover;
+    grid-row: 2;
+    grid-column: 2;
+}
+.b7{
+    background-image: url(ptlo7.png);
+    background-size: cover;
+    grid-row: 2;
+    grid-column: 3;
+}
+.b8{
+    background-image: url(ptlo8.png);
+    background-size: cover;
+    grid-row: 2;
+    grid-column: 4;
+}
+.blogpost{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 43.2px;
+}
+.blogpost>div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80vw;
+    
+}
+.blogpost>div>img{
+    height: 40vh;
+}
+.blogpost>div>div{
+    width: 70%;
+    margin-left: 38.4px;
+}
+.blogpost>h2{
+    font-weight: 300;
+    letter-spacing: 20%;
+    margin-top: 43.2px;
+    margin-bottom: 43.2px;
+    font-size: 35px;
+}
+.historia>h2{
+    font-weight: 300;
+    letter-spacing: 20%;
+}
+.czarnyorzyciskzdataniewiempoco{
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 14px;
+    border-radius: 20px;
+    width: 134.4px !important;
+    height: 43.2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 700px;
+    top: 1550px;
+    z-index: 20;
+}
+.scianatekstu{
+    width: 80vw;
+    font-weight: 300;
+    margin-top: 54px;
+    margin-bottom: 54px;
+}
+.przyciskwblogu{
+    background: none;
+    background-color: #EAEAEA;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    width: 10vw;
+    margin-top: 21.6px;
+    margin-bottom: 21.6px;
+    height: 64.8px;
+    font-weight: 300;
+    color: #000000;
+}
+.stopka a{
+    color: #FFFFFF;
+    font-weight: 200;
+    font-size: 13px;
+      margin-top: 21.6px;
+}
+.produktciki{
+    width: 85vw;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 54px;
+    justify-content: space-between;
+}
+.listakategorii{
+    list-style: none;
+    margin-left: 19.2px;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+.bocznefiltry{
+    margin-top: 21.6px;
+}
+.bocznefiltry>*{
+    font-weight: 300;
+    letter-spacing: 20%;
+}
+#costam>li{
+    border-bottom: #000000 1px solid;
+}
+.selektcikkk{
+    background-color: #EAEAEA;
+    border: none;
+    height: 46px;
+    width: 186px;
+    border-radius: 10px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number]{
+  -moz-appearance: textfield;
+  appearance: text;
+}
+
+.listakategorii>li>label>input{
+    fill: none;
+    border: #000000 1px solid;
+    background: none;
+}
+.bocznefiltry>h3{
+    font-size: 24px;
+    margin-bottom: 10.8px;
+    border-bottom: #000000 1px solid;
+}
+.przycciskflitrowania{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    border-radius: 16px;
+    color: #FFFFFF;
+    width: 234.4px;
+    height: 43.2px;
+    margin-top: 10.8px;
+    margin-bottom: 21.6px;
+    margin-left: 20px;
+}
+.przegladanieprodukt{
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.przegladanieprodukt>h2{
+    font-weight: 300;
+    letter-spacing: 20%;
+    font-size: 35px;
+}
+.zdjeciagridzik3{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 8px;
+    height: 130vh;
+    width: 64vw;
+    margin-bottom: 54px;
+}
+.c1{
+    grid-row: 1;
+    grid-column: 1;
+}
+.c2{
+    grid-row: 1;
+    grid-column: 2;
+}
+.c3{
+    grid-row: 1;
+    grid-column: 3;
+}
+.c4{
+    grid-row: 1;
+    grid-column: 4;
+}
+.c5{
+    grid-row: 2;
+    grid-column: 1;
+}
+.c6{
+    grid-row: 2;
+    grid-column: 2;
+}
+.c7{
+    grid-row: 2;
+    grid-column: 3;
+}
+.c8{
+    grid-row: 2;
+    grid-column: 4;
+}
+.c9{
+    grid-row: 3;
+    grid-column: 1;
+}
+.c10{
+    grid-row: 3;
+    grid-column: 2;
+}
+.c11{
+    grid-row: 3;
+    grid-column: 3;
+}
+.c12{
+    grid-row: 3;
+    grid-column: 4;
+}
+.zdjeciagridzik3>div{
+    background-color: #FFFFFF;
+    border: #0000005b 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.zdjeciagridzik3>div>img{
+    margin-top: 43.2px;
+}
+.costamsortowankoitd{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 21.6px;
+    margin-bottom: 21.6px;
+    font-size: 15px;
+}
+.costamsortowankoitd>p{
+    width: 50vw;
+}
+.szerokicienkinoznaliscieproduktow{
+    width: 64vw;
+}
+.filtriloscipieniaznej{
+    margin-top: 20px;
+    width: 110px;
+    height: 46px;
+    border: 1px solid #000000;
+
+}
+.zdjeciagridzik4{
+    display: grid;
+    grid-template-rows: 700px 362px;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    height: 1062px;
+    width: 674px;
+}
+.e{
+    background-image: url(nozb.png);
+    background-size: cover;
+    grid-row: 1;
+    grid-column: span 2;
+}
+.e2{
+    background-image: url(nozb2.png);
+    background-size: cover;
+    grid-row: 2;
+    grid-column: 1;
+}
+.e3{
+    background-image: url(nozb3.png);
+    background-size: cover;
+    grid-row: 2;
+    grid-column: 2;
+}
+.glownydivproduktyowy{
+    height: 1600px;
+    width: 80vw;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.opisproduktudiv>*{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.opisproduktudiv{
+    width: 630.35px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+.listaspecyfikacja>li{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 50px;
+    width: 630px;
+    padding-left: 5px;
+}
+.listaspecyfikacja>li>*{
+    position: absolute;
+    left: 65%;
+}
+.sz{
+    background-color: #F3F3F3;
+}
+#wymiary{
+    height: 142.41px !important;
+}
+.listainformacjep{
+    list-style-type: square;
+    font-size: 15px;
+    line-height: 30px;
+}
+.listainformacjep li::marker{
+    color: red;
+}
+.opisproduktudiv>h2{
+    font-size: 26px;
+    letter-spacing: 5%;
+}
+.fakegridzik{
+    height: 580px;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.cos{
+    width: 321px;
+    height: 439px;
+    border: #000000 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #FFFFFF;
+}
+.polecaneproduktydiv{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 80vw;
+    height: 580px;
+    border-top: #000000 1px solid;
+    margin-bottom: 60px;
+}
+.polecaneproduktydiv>h2{
+    font-weight: 300;
+    letter-spacing: 20%;
+    font-size: 35px;
+    margin-bottom: 23.2px;
+    margin-top: 40px;
+
+}
+.fakegridzik>button{
+    background: none;
+    border: none;
+    z-index: 15;
+}
+
+.divzakupowy{
+  border: 1px solid #000000;
+  border-radius: 15px;
+  padding: 20px;
+  width: 630px;
+  height: 158px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+
+.ceny{
+  flex: 1;
+}
+
+.cenateraz{
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.cenakiedys{
+  font-size: 14px;
+  color: #888888;
+  text-decoration: line-through;
+  margin-top: 4px;
+}
+
+.info{
+  font-size: 12px;
+  color: #666666;
+  margin-top: 8px;
+  max-width: 280px;
+}
+
+.przyciski{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.iloscc{
+  display: flex;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.iloscc button{
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: #f0f0f0;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.iloscc span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 40px;
+  font-size: 20px;
+  background: #ffffff;
+}
+
+.dodajdokosz{
+  background-color: #ed1c24;
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.glownydivkontakt{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.glownydivkontakt>h2{
+    font-weight: 300;
+    letter-spacing: 20%;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+.glownydivkontakt>p{
+    font-size: 15px;
+}
+.duzoeksportowaniadivwkontakcie{
+    margin-top: 50px;
+    margin-bottom: 90px;
+    width: 65vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.chinskieznaczkikontaktowe{
+    margin-right: 80px;
+}
+.duzoeksportowaniadivwkontakcie>*{
+    margin-left: 20px;
+}
+
+.formularz{
+    width: 812px;
+    margin: 0 auto;
+    padding: 24px;
+    color: #000000;
+}
+
+.wiersz{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.pole{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.calywiersz{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+label{
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #000000;
+}
+
+.inputcik{
+    padding: 12px;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+textarea{
+    min-height: 120px;
+    resize: vertical;
+}
+
+.wierszcaptcha{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 8px;
+}
+
+.obrazekcaptcha{
+    padding: 12px 16px;
+    font-family: monospace;
+    font-size: 16px;
+    background-color: #f0f0f0;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    min-width: 100px;
+}
+
+.przyciskodswiezania{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.zgoda{
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    font-size: 12px;
+    color: #444444;
+    flex-direction: row;
+    align-items: center;
+}
+
+.przyciskwysylajacy{
+    margin-top: 24px;
+    padding: 12px 24px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.formularz>h2{
+    font-weight: 300;
+    letter-spacing: 20%;
+    font-size: 35px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.formularz label{
+    font-size: 16px;
+    font-weight: 900;
+}
+.smokznozeem{
+    position: absolute;
+    right: 110px;
+    top: 650px;
+    width: 200px;
+    max-width: 30vw;
+    height: auto;
+    z-index: 2;
+    pointer-events: none;
+    user-select: none;
+}
+
+@media (max-width: 720px){
+    html, body{
+        width: 100vw !important;
+        min-width: 0 !important;
+        overflow-x: hidden !important;
+    }
+    body{
+        background-size: cover !important;
+        background-position: center !important;
+    }
+    .menu{
+        padding-left: 8vw !important;
+        padding-right: 8vw !important;
+        height: 56px !important;
+        min-width: 0 !important;
+        font-size: 15px !important;
+    }
+    .logo, .logolink, .logostopka{
+        width: 38vw !important;
+        min-width: 80px !important;
+        max-width: 180px !important;
+        height: auto !important;
+        margin-right: 0 !important;
+    }
+    .ikoneki{
+        width: 90vw !important;
+        margin-left: 0 !important;
+        justify-content: flex-end !important;
+    }
+    .nozyktylnezdjecienagorze{
+        height: 40vw !important;
+        min-height: 120px !important;
+        background-size: cover !important;
+    }
+    .distinguisheddarkercoloredindividualwedzowydiv{
+        width: 96vw !important;
+        left: 2vw !important;
+        right: auto !important;
+        top: 30vw !important;
+        transform: none !important;
+        position: static !important;
+        padding: 0 !important;
+    }
+    .napischinskisrodeczek{
+        height: 48px !important;
+        width: auto !important;
+    }
+    .napisikjakis{
+        font-size: 22px !important;
+        margin-top: 24px !important;
+        letter-spacing: 0.12em !important;
+        text-align: center !important;
+    }
+    .batonpodznakami{
+        width: 80vw !important;
+        font-size: 16px !important;
+        height: 48px !important;
+        margin-top: 24px !important;
+    }
+    .strzaleczki{
+        width: 90vw !important;
+        bottom: 10vw !important;
+        right: 5vw !important;
+        position: static !important;
+        transform: none !important;
+        margin: 0 auto !important;
+    }
+    .dziwnyprzycisk{
+        right: 10vw !important;
+        bottom: 2vw !important;
+    }
+    main{
+        width: 100vw !important;
+        min-width: 0 !important;
+        padding: 0 !important;
+    }
+    .nagloweklnasrodku{
+        font-size: 22px !important;
+        letter-spacing: 0.12em !important;
+        margin: 16px 0 !important;
+        text-align: center !important;
+    }
+    /* --- GRIDY --- */
+    .zdjeciagridzik,
+    .zdjeciagridzik2,
+    .zdjeciagridzik3,
+    .zdjeciagridzik4{
+        display: flex !important;
+        flex-direction: column !important;
+        width: 98vw !important;
+        min-width: 0 !important;
+        height: auto !important;
+        gap: 16px !important;
+        margin-bottom: 32px !important;
+    }
+    .zdjeciagridzik > div,
+    .zdjeciagridzik2 > div,
+    .zdjeciagridzik3 > div,
+    .zdjeciagridzik4 > div{
+        width: 96vw !important;
+        min-width: 0 !important;
+        max-width: 100vw !important;
+        height: auto !important;
+        aspect-ratio: 1.1/1 !important;
+        margin: 0 auto !important;
+        border-radius: 12px !important;
+        overflow: hidden !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: flex-end !important;
+        align-items: flex-start !important;
+        position: relative !important;
+    }
+    .zdjeciagridzik > div > h3,
+    .zdjeciagridzik > div > p{
+        padding-left: 16px !important;
+        padding-bottom: 8px !important;
+        font-size: 16px !important;
+        letter-spacing: 0.08em !important;
+    }
+    .zdjeciagridzik > div > h3{
+        margin-top: 12px !important;
+    }
+    .zdjeciagridzik > div > p{
+        margin-bottom: 12px !important;
+    }
+    .overlay{
+        padding: 18px 8px 12px 12px !important;
+        font-size: 1em !important;
+        border-radius: 12px !important;
+    }
+    .overlay h3{
+        font-size: 1.1em !important;
+        margin-bottom: 4px !important;
+    }
+    .overlay p{
+        font-size: 0.98em !important;
+        margin-bottom: 16px !important;
+    }
+    .overlay .przyciskprzysmokuznozami{
+        width: 90vw !important;
+        min-width: 0 !important;
+        font-size: 1em !important;
+        padding: 12px 0 !important;
+        margin: 0 !important;
+    }
+    /* --- SMOK OVERLAY --- */
+    .zdjeciagridzik2 .smok-overlay img{
+        width: 40vw !important;
+        max-width: 120px !important;
+    }
+    .zdjeciagridzik2 .smok-overlay{
+        border-radius: 12px !important;
+    }
+    /* --- HISTORIA & BLOG --- */
+    .historia,
+    .blogpost,
+    .scianatekstu,
+    .produktciki,
+    .polecaneproduktydiv,
+    .glownydivproduktyowy,
+    .fakegridzik{
+        width: 98vw !important;
+        min-width: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .historia>div,
+    .blogpost>div{
+        flex-direction: column !important;
+        align-items: center !important;
+        width: 98vw !important;
+        gap: 16px !important;
+    }
+    .historia>div>img,
+    .blogpost>div>img{
+        width: 92vw !important;
+        max-width: 98vw !important;
+        height: auto !important;
+        margin: 0 auto 16px auto !important;
+        border-radius: 12px !important;
+    }
+    .historia>div>div,
+    .blogpost>div>div{
+        width: 96vw !important;
+        margin-left: 0 !important;
+        margin-bottom: 12px !important;
+    }
+    .blogpost>h2,
+    .historia>h2,
+    .polecaneproduktydiv>h2{
+        font-size: 22px !important;
+        margin-top: 18px !important;
+        margin-bottom: 18px !important;
+        letter-spacing: 0.12em !important;
+    }
+    /* --- STOPKA --- */
+    .stopka,
+    .costamcostamczarnenafooterze{
+        width: 100vw !important;
+        min-width: 0 !important;
+        padding: 0 !important;
+        height: auto !important;
+        background-size: cover !important;
+        background-position: center !important;
+    }
+    .glownydivstopka{
+        flex-direction: column !important;
+        align-items: center !important;
+        width: 100vw !important;
+        height: auto !important;
+        gap: 12px !important;
+    }
+    .glownydivstopka > div{
+        width: 92vw !important;
+        height: auto !important;
+        margin-bottom: 12px !important;
+        align-items: flex-start !important;
+    }
+    .chlopaczynakfcdivostatniwstopcezezdjeciami{
+        height: auto !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .nochlopietakimidzikwstopce,
+    .nienawidzerobieniasekiryu{
+        flex-direction: column !important;
+        align-items: center !important;
+        font-size: 13px !important;
+        height: auto !important;
+        text-align: center !important;
+    }
+    /* --- FORMULARZ KONTAKT --- */
+    .formularz-wrapper,
+    .glownydivkontakt,
+    .duzoeksportowaniadivwkontakcie{
+        flex-direction: column !important;
+        align-items: center !important;
+        width: 100vw !important;
+        min-width: 0 !important;
+    }
+    .formularz{
+        width: 96vw !important;
+        min-width: 0 !important;
+        padding: 8px !important;
+        font-size: 15px !important;
+    }
+    .wiersz,
+    .pole,
+    .calywiersz{
+        width: 100% !important;
+        flex-direction: column !important;
+        gap: 8px !important;
+        margin-bottom: 12px !important;
+    }
+    .inputcik,
+    textarea{
+        font-size: 15px !important;
+        padding: 10px !important;
+    }
+    textarea{
+        min-height: 80px !important;
+    }
+    .przyciskwysylajacy{
+        width: 90vw !important;
+        font-size: 16px !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .smokznozeem{
+        position: static !important;
+        display: block !important;
+        margin: 24px auto 0 auto !important;
+        width: 60vw !important;
+        max-width: 220px !important;
+        top: auto !important;
+        right: auto !important;
+    }
+    /* --- DODATKOWE --- */
+    .divzakupowy,
+    .opisproduktudiv,
+    .listainformacjep,
+    .costamsortowankoitd,
+    .szerokicienkinoznaliscieproduktow{
+        width: 98vw !important;
+        min-width: 0 !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .divzakupowy{
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        padding: 12px !important;
+        height: auto !important;
+        width: 96vw !important;
+    }
+    .cenateraz{
+        font-size: 20px !important;
+    }
+    .przyciski{
+        width: 100% !important;
+        flex-direction: row !important;
+        gap: 8px !important;
+    }
+    .iloscc button,
+    .iloscc span{
+        width: 32px !important;
+        height: 32px !important;
+        font-size: 16px !important;
+    }
+    .cos{
+        width: 92vw !important;
+        height: auto !important;
+        min-width: 0 !important;
+        padding: 16px 0 !important;
+    }
+    .mainregulamin>div,
+    .scianatekstu{
+        width: 98vw !important;
+        min-width: 0 !important;
+        padding: 0 !important;
+    }
+    .mainregulamin>div>ol{
+        margin-top: 18px !important;
+    }
+    .mainregulamin>div>ol>li{
+        font-size: 15px !important;
+        margin-bottom: 4px !important;
+    }
+    .definicje,
+    .postanowienia{
+        margin-bottom: 24px !important;
+    }
+}
+@media (max-width: 720px){
+    .napisikjakis{
+        margin-top: 12px !important;
+        margin-bottom: 8px !important;
+    }
+    .batonpodznakami{
+        margin-top: 12px !important;
+        margin-bottom: 12px !important;
+    }
+    .zdjeciagridzik,
+    .historia,
+    .blogpost,
+    .polecaneproduktydiv{
+        margin-bottom: 12px !important;
+        margin-top: 0 !important;
+    }
+    main{
+        padding-top: 56px !important;
+    }
+}
+@media (max-width: 720px){
+    .menu{
+        position: relative !important;
+        height: 56px !important;
+        padding: 0 12px !important;
+        flex-wrap: wrap !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        z-index: 100 !important;
+    }
+    .ikoneki{
+        width: auto !important;
+        margin-left: 0 !important;
+        gap: 12px !important;
+    }
+    .hamburbur-menu{
+        display: block !important;
+        position: absolute !important;
+        top: 56px !important;
+        right: 0 !important;
+        width: 80vw !important;
+        min-width: 180px !important;
+        max-width: 320px !important;
+        background: #000 !important;
+        z-index: 999 !important;
+        border-radius: 0 0 0 10px !important;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.3) !important;
+    }
+    .menu > .desktop-menu-items{
+        display: none !important;
+    }
+    .hamburger-icon{
+        display: block !important;
+        background: none !important;
+        border: none !important;
+        font-size: 32px !important;
+        color: #fff !important;
+        margin-left: 12px !important;
+    }
+    .logo, .logolink{
+        margin-right: 0 !important;
+        width: 120px !important;
+        min-width: 80px !important;
+        max-width: 180px !important;
+    }
+}
+a{
+    cursor: pointer !important;
+}
+button{
+    cursor: pointer !important;
+}
