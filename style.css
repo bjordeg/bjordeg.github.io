@@ -136,7 +136,7 @@ body{
     width: 80vw;
 }
 .napischinskisrodeczek{
-height: 96px;
+height: 76.31px;
 }
 .napisikjakis{
     color: white;
@@ -169,7 +169,7 @@ height: 96px;
     background: none;
     border: none;
     color: white;
-    font-size: 20px;
+    font-size: 14px;
     border: white 1px solid;
     border-radius: 10px;
     width: 168px;
@@ -183,6 +183,7 @@ height: 96px;
     background: none;
     right: 50%;
     bottom: 2%;
+    margin-bottom: 20px;
 }
 main{
     display: flex;
