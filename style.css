@@ -273,7 +273,7 @@ main{
 
 .overlay .przyciskprzysmokuznozami{
     margin: 0;
-    font-size: 1em;
+    font-size: 14px;
     padding: 12px 32px;
     min-width: 0;
     font-weight: 400;
