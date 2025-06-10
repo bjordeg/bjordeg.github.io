@@ -88,7 +88,7 @@ body{
 .hamburbur-menu{
   display: none;
   background-color: #222;
-  position: absolute;
+  position: fixed;
   top: 78.86px;
   right: 0;
   width: 200px;
@@ -686,7 +686,8 @@ main{
     
 }
 .blogpost>div>img{
-    height: 40vh;
+    width: 35vw;
+    height: auto;
 }
 .blogpost>div>div{
     width: 70%;
@@ -760,7 +761,7 @@ a{
     color: #000000;
 }
 .filtrowanieceny{
-    width: 320px;
+    width: 350px;
 }
 .bocznefiltry li{
     margin-top: 8px;
@@ -840,55 +841,79 @@ input[type=number]{
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 8px;
-    height: 130vh;
-    width: 64vw;
+    height: 1000px;
+    width: 60vw;
     margin-bottom: 54px;
 }
 .c1{
+    padding:3px;
+    text-align:center;
     grid-row: 1;
     grid-column: 1;
 }
 .c2{
+    padding:3px;
+    text-align:center;
     grid-row: 1;
     grid-column: 2;
 }
 .c3{
+    padding:3px;
+    text-align:center;
     grid-row: 1;
     grid-column: 3;
 }
 .c4{
+    padding:3px;
+    text-align:center;
     grid-row: 1;
     grid-column: 4;
 }
 .c5{
+    padding:3px;
+    text-align:center;
     grid-row: 2;
     grid-column: 1;
 }
 .c6{
+    padding:3px;
+    text-align:center;
     grid-row: 2;
     grid-column: 2;
 }
 .c7{
+    padding:3px;
+    text-align:center;
     grid-row: 2;
     grid-column: 3;
 }
 .c8{
+    padding:3px;
+    text-align:center;
     grid-row: 2;
     grid-column: 4;
 }
 .c9{
+    padding:3px;
+    text-align:center;
     grid-row: 3;
     grid-column: 1;
 }
 .c10{
+    padding:3px;
+    text-align:center;
     grid-row: 3;
     grid-column: 2;
 }
 .c11{
+    padding:3px;
+    text-align:center;
     grid-row: 3;
     grid-column: 3;
 }
 .c12{
+    padding:3px;
+    text-align:center;
     grid-row: 3;
     grid-column: 4;
 }
@@ -913,7 +938,7 @@ input[type=number]{
     font-size: 15px;
 }
 .costamsortowankoitd>p{
-    width: 50vw;
+    width: 38vw;
 }
 .szerokicienkinoznaliscieproduktow{
     width: 64vw;
@@ -927,7 +952,7 @@ input[type=number]{
 }
 .zdjeciagridzik4{
     display: grid;
-    grid-template-rows: 700px 362px;
+    grid-template-rows: 40vw 362px;
     grid-template-columns: 1fr 1fr;
     gap: 8px;
     height: 1062px;
@@ -953,7 +978,7 @@ input[type=number]{
 }
 .glownydivproduktyowy{
     height: 1600px;
-    width: 80vw;
+    width: 90%;
     margin-top: 10px;
     display: flex;
     flex-direction: row;
@@ -981,7 +1006,7 @@ input[type=number]{
 }
 .listaspecyfikacja>li>*{
     position: absolute;
-    left: 65%;
+    left: 67%;
 }
 .sz{
     background-color: #F3F3F3;
@@ -1050,7 +1075,7 @@ input[type=number]{
   border: 1px solid #000000;
   border-radius: 15px;
   padding: 20px;
-  width: 630px;
+  width: 42vw;
   height: 158px;
   display: flex;
   justify-content: space-around;
