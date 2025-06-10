@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 body{
     font-family: 'Poppins';
@@ -40,7 +41,7 @@ body{
 }
 .logo{
     width: 276px;
-    margin-right: 384px;/*wiedząc że 2 jst m0 wielomianu w(x) wyznacz resztę z dzielenia wielomianu w(x):p(x) x2-x-2 ponad to reszta z dzielenia wielomianu w przez dwumian x+1 jest równa 5*/
+    /*wiedząc że 2 jst m0 wielomianu w(x) wyznacz resztę z dzielenia wielomianu w(x):p(x) x2-x-2 ponad to reszta z dzielenia wielomianu w przez dwumian x+1 jest równa 5*/
 }
 .menu{
     height: 78.86px;
@@ -82,7 +83,7 @@ body{
     align-items: center;
     justify-content: space-between;
     width: 384px;
-    margin-left: 484px;
+    margin-left: 20vw;
 }
 .hamburbur-menu{
   display: none;
@@ -143,6 +144,7 @@ height: 76.31px;
     letter-spacing: 0.25em;
     text-shadow: black 1px 1px;
     margin-top: 64.8px;
+    text-align: center;
 }
 .strzaleczki{
     position: absolute;
@@ -333,7 +335,7 @@ main{
     
 }
 .historia>div>img{
-    width: 903px;
+    width: 100%;
 }
 .historia>div>div{
     width: 70%;
@@ -459,8 +461,9 @@ main{
     height: 41.11px;
 }
 .logostopka{
-    height: 44.92px!important;
+    height: 40px!important;
     width: auto!important;
+    margin-right: 8px;
 }
 .nochlopietakimidzikwstopce{
     border-bottom: #FFFFFF20 1px solid;
@@ -470,7 +473,7 @@ main{
     display: flex;
     align-items: center;
     font-weight: 200;
-    font-size: 15px;
+    font-size: 12px;
     margin-top: 21.6px;
     margin-bottom: 21.6px;
 }
@@ -1260,7 +1263,7 @@ textarea{
 }
 .smokznozeem{
     position: absolute;
-    right: 110px;
+    right: 50px;
     top: 650px;
     width: 354px;
     max-width: 15vw;
