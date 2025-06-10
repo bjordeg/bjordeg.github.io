@@ -5,6 +5,9 @@
     box-sizing: border-box;
     overflow-x: hidden;
 }
+body *{
+    overflow-y: hidden;
+}
 body{
     font-family: 'Poppins';
     background-image: url(tloglowne.png);
